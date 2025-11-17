@@ -1,8 +1,8 @@
-### *** FILMINISl***
+###  FILMINISl
 
-### *** Usuários já cadastrados***
+###  Usuários já cadastrados
 
-#### ***Administrador***
+#### Administrador
 - **Usuário:** `admin`
 - **Senha:** `123456`
 
@@ -95,4 +95,5 @@ npm run dev
 Frontend disponível em
 
  http://localhost:3000
+
 
