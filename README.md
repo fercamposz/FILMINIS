@@ -1,15 +1,14 @@
  README – FILMINIS
+ 
  Usuários já cadastrados no sistema
 --- ADMINISTRADOR ---
 
 Usuário: admin
-
 Senha: 123456
 
 --- USER ---
 
 Usuário: fer
-
 Senha: fer
 
 Inserir no MySQL:
@@ -18,6 +17,10 @@ VALUES ('admin', 'admin@filminis.com', SHA2('123456',256), 1);
 
 INSERT INTO usuarios (username, email, senha, is_admin)
 VALUES ('fer', 'fer@filminis.com', SHA2('fer',256), 0);
+
+
+
+
 
 1.  Requisitos
 Backend
@@ -94,3 +97,4 @@ npm run dev
 
 Frontend roda em:
 http://localhost:3000
+
