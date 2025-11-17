@@ -1,17 +1,17 @@
- README – FILMINIS
- 
- Usuários já cadastrados no sistema
---- ADMINISTRADOR ---
+### ***🎬 FILMINIS – README Oficial***
 
-Usuário: admin
-Senha: 123456
+### ***👤 Usuários já cadastrados***
 
---- USER ---
+#### ***Administrador***
+- **Usuário:** `admin`
+- **Senha:** `123456`
 
-Usuário: fer
-Senha: fer
+#### ***Usuário comum***
+- **Usuário:** `fer`
+- **Senha:** `fer`
 
-Inserir no MySQL:
+#### ***Inserir no MySQL***
+```sql
 INSERT INTO usuarios (username, email, senha, is_admin)
 VALUES ('admin', 'admin@filminis.com', SHA2('123456',256), 1);
 
@@ -19,11 +19,8 @@ INSERT INTO usuarios (username, email, senha, is_admin)
 VALUES ('fer', 'fer@filminis.com', SHA2('fer',256), 0);
 
 
-
-
-
-1.  Requisitos
-Backend
+🛠️ 1. Requisitos
+🔧 Backend
 
 Python 3.10+
 
@@ -31,18 +28,18 @@ MySQL Server
 
 pip instalado
 
-Frontend
+💻 Frontend
 
 Node.js 18+
 
 npm
 
-2.  Configurar o Banco MySQL
-Crie o banco:
+🗄️ 2. Configurar o Banco MySQL
+Criar o banco
 CREATE DATABASE filmesdb;
 USE filmesdb;
 
-Crie as tabelas:
+Criar as tabelas
 CREATE TABLE usuarios (
     id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) UNIQUE NOT NULL,
@@ -65,15 +62,15 @@ CREATE TABLE filmes (
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
 
-3.  Rodar o Backend Python
-Arquivo principal do servidor:
+🚀 3. Rodar o Backend Python
+Arquivo principal
 
 main.py
 
-Instale as libs:
+Instalar dependências
 pip install mysql-connector-python pyjwt
 
-Ajuste a senha no arquivo:
+Ajustar configurações do banco
 DB_CONFIG = {
     "user": "root",
     "password": "fer123",   # altere se sua senha for outra
@@ -81,20 +78,20 @@ DB_CONFIG = {
     "database": "filmesdb"
 }
 
-Iniciar o servidor:
+Iniciar o servidor
 python main.py
 
-Backend sobe em:
-http://127.0.0.1:8000
+Backend disponível em
 
-4. Rodar o Frontend React
-Instalar dependências:
+👉 http://127.0.0.1:8000
+
+🌐 4. Rodar o Frontend React
+Instalar dependências
 npm install
 
-Iniciar o front:
-
+Rodar o front
 npm run dev
 
-Frontend roda em:
-http://localhost:3000
+Frontend disponível em
 
+👉 http://localhost:3000
