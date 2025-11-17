@@ -1,4 +1,4 @@
-###  FILMINISl
+###  FILMINIS
 
 ###  Usuários já cadastrados
 
@@ -96,4 +96,10 @@ Frontend disponível em
 
  http://localhost:3000
 
+```
+###  DOCUMENTAÇÃO
+[doc.docx](https://github.com/user-attachments/files/23593552/doc.docx)
 
+
+###  Figma
+https://www.figma.com/design/bHkYJ3uprbAliOb3jn3qrS/Movie?node-id=0-1&t=gmz1izCVE7G96FEC-1
