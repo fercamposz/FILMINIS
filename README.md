@@ -1,6 +1,6 @@
-### ***🎬 FILMINIS – README Oficial***
+### *** FILMINISl***
 
-### ***👤 Usuários já cadastrados***
+### *** Usuários já cadastrados***
 
 #### ***Administrador***
 - **Usuário:** `admin`
@@ -19,8 +19,8 @@ INSERT INTO usuarios (username, email, senha, is_admin)
 VALUES ('fer', 'fer@filminis.com', SHA2('fer',256), 0);
 
 
-🛠️ 1. Requisitos
-🔧 Backend
+ 1. Requisitos
+ Backend
 
 Python 3.10+
 
@@ -28,13 +28,13 @@ MySQL Server
 
 pip instalado
 
-💻 Frontend
+ Frontend
 
 Node.js 18+
 
 npm
 
-🗄️ 2. Configurar o Banco MySQL
+ 2. Configurar o Banco MySQL
 Criar o banco
 CREATE DATABASE filmesdb;
 USE filmesdb;
@@ -62,7 +62,7 @@ CREATE TABLE filmes (
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
 
-🚀 3. Rodar o Backend Python
+3. Rodar o Backend Python
 Arquivo principal
 
 main.py
@@ -83,9 +83,9 @@ python main.py
 
 Backend disponível em
 
-👉 http://127.0.0.1:8000
+ http://127.0.0.1:8000
 
-🌐 4. Rodar o Frontend React
+ 4. Rodar o Frontend React
 Instalar dependências
 npm install
 
@@ -94,4 +94,5 @@ npm run dev
 
 Frontend disponível em
 
-👉 http://localhost:3000
+ http://localhost:3000
+
