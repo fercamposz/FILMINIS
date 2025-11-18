@@ -6,7 +6,7 @@ export default function ConfirmPopup({
     open,
     title = "Você quer excluir?",
     message = "Ao aceitar não será possível desfazer essa ação.",
-    confirmLabel = "Aceitar",
+    confirmLabel = "Confirmar",
     cancelLabel = "Cancelar",
     onConfirm,
     onCancel,
