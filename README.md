@@ -36,7 +36,7 @@ npm
 
  2. Configurar o Banco MySQL
 
-[criar banco.docx](https://github.com/user-attachments/files/23604767/criar.banco.docx)
+ENTRE NO ARQUIVO QUE ESTA JUNTO COM O README
 
 
 3. Rodar o Backend Python
@@ -80,4 +80,5 @@ Frontend disponível em
 
 ###  Figma
 https://www.figma.com/design/bHkYJ3uprbAliOb3jn3qrS/Movie?node-id=0-1&t=gmz1izCVE7G96FEC-1
+
 
