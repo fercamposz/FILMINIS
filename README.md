@@ -35,32 +35,9 @@ Node.js 18+
 npm
 
  2. Configurar o Banco MySQL
-Criar o banco
-CREATE DATABASE filmesdb;
-USE filmesdb;
 
-Criar as tabelas
-CREATE TABLE usuarios (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    email VARCHAR(120) UNIQUE NOT NULL,
-    senha VARCHAR(255) NOT NULL,
-    is_admin TINYINT(1) DEFAULT 0
-);
+[criar banco.docx](https://github.com/user-attachments/files/23604767/criar.banco.docx)
 
-CREATE TABLE filmes (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    titulo VARCHAR(255) NOT NULL,
-    ano INT NOT NULL,
-    genero VARCHAR(120) NOT NULL,
-    diretor VARCHAR(120) NOT NULL,
-    sinopse TEXT NOT NULL,
-    poster TEXT NOT NULL,
-    duracao VARCHAR(50),
-    aprovado TINYINT(1) DEFAULT 0,
-    usuario_id INT,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
-);
 
 3. Rodar o Backend Python
 Arquivo principal
@@ -103,3 +80,4 @@ Frontend disponível em
 
 ###  Figma
 https://www.figma.com/design/bHkYJ3uprbAliOb3jn3qrS/Movie?node-id=0-1&t=gmz1izCVE7G96FEC-1
+
